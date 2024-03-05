@@ -1,0 +1,23 @@
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "opinion": {
+        "type": "string"
+      },
+      "age": {
+        "type": "number"
+      },
+      "gender": {
+        "type": "string",
+        "enum": ["male", "female"]
+      },
+      "ethnicity": {
+        "type": "string",
+        "enum": ["White", "Black", "Hispanic", "Asian", "Native American", "Other"]
+      }
+    },
+    "required": ["opinion", "age", "gender", "ethnicity"]
+  }
+}

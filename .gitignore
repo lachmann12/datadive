@@ -1,4 +1,7 @@
 secrets/*
+testing/*
+output/*
+audio/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="prismx",
-    version="0.1.88",
+    name="datadive",
+    version="0.0.1",
     author="Alexander Lachmann",
-    author_email="alexander.lachmann@mssm.edu",
-    description="Package to for gene function predictions by unsupervised gene expression partitioning.",
+    author_email="alexander.lachmann@gmail.com",
+    description="Dive nose first into data.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/maayanlab/prismx",
+    url="https://github.com/lachmann12/datadive",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -19,7 +19,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     package_data={
-        "prismx": ["data/*"]
+        "datadive": ["data/*"]
     },
     include_package_data=True,
     install_requires=list(map(str.strip, open('requirements.txt', 'r').readlines())),
